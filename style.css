@@ -1,0 +1,158 @@
+/* Add global styles */
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F3E9D2;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #F3E9D2;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+body {
+  background-color: #114B5F; /* light green-blue color */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  color: #522B47;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #C6DABF;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  color: #7D8CC4;
+  font-size: 18px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Button styles */
+
+.primary-button {
+  background-color: #1A936F;
+  border: none;
+  color: #F3E9D2;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+.primary-button:hover {
+  background-color: #6A8E7F;
+}
+
+.secondary-button {
+  background-color: #1A9365;
+  border: none;
+  color: #F3E9D2;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+  
+.secondary-button:hover {
+  background-color: #6A8E7F;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  color: #F3E9D2;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#understanding-our-enviornment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#get-involved {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Video container */
+.video-container {
+  margin: 20px auto;
+  width: 80%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+#video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Link styles */
+a {
+  color: #EFA48B;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
